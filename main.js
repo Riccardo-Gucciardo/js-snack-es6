@@ -16,9 +16,11 @@ let biciPiuleggera = biciDaCorsa[0]
 
 for( let i = 1; i < biciDaCorsa.length; i++ ) {
     
-    let elemento = biciDaCorsal[i]
-    if( elemento. peso < biciPiuLeggera. peso ) {
+    let elemento = biciDaCorsa[i]
+    if( elemento.peso < biciPiuleggera.peso ) {
     
-        biciPiuLeggera = elemento
+        biciPiuleggera = elemento
     }
 }
+console.log(biciPiuleggera);
+
